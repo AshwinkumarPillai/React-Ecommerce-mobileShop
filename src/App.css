@@ -1,0 +1,96 @@
+.App {
+}
+
+body {
+  background-color: aliceblue !important;
+  padding-bottom: 100px;
+}
+
+.text-blue {
+  color: #0984e3;
+}
+
+.cartBtn {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 0;
+  transform: translateY(0px);
+  margin-top: 20px;
+  background: transparent;
+}
+
+.cartBtn:focus {
+  outline: none;
+}
+
+.cartBtn span {
+  padding: 5px 15px;
+  text-align: center;
+  background-color: #2c3e50;
+}
+
+.cartMinus {
+  color: crimson;
+}
+
+.cartCount {
+  color: white;
+}
+
+.cartPlus {
+  color: #2ecc71;
+}
+
+.totalCount {
+  position: absolute;
+  top: 0px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.btn-black {
+  background-color: transparent !important;
+  text-transform: capitalize !important;
+  font-size: 0.8rem !important;
+  border: 1px solid black !important;
+  border-radius: 0 !important;
+  transition: 0.2s;
+}
+
+.btn-black:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.btn-red {
+  background-color: transparent !important;
+  text-transform: capitalize !important;
+  font-size: 0.8rem !important;
+  border: 1px solid crimson !important;
+  border-radius: 0 !important;
+  transition: 0.2s;
+}
+
+.btn-red:hover {
+  background-color: crimson !important;
+  color: white !important;
+}
+
+.btn-green {
+  background-color: transparent !important;
+  text-transform: capitalize !important;
+  font-size: 0.8rem !important;
+  border: 1px solid #2ecc71 !important;
+  border-radius: 0 !important;
+  transition: 0.2s;
+}
+
+.btn-green:hover {
+  background-color: #2ecc71 !important;
+  color: white !important;
+}
